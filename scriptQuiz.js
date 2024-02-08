@@ -56,7 +56,7 @@ const tema = [
   },
   {
     perfil: "./assets/img/Felipe.jpg", //felipe
-    logo: "./assets/icon/ícone-peixe.png",
+    logo: "./assets/icon/icone-peixe.png",
     fundo: "./assets/img/Nemo.jpg",
   },
   {
@@ -87,6 +87,7 @@ function exibir() {
     "Segunda pergunta:",
     "Terceira pergunta:",
     "Quarta pergunta:",
+    "Quinta pergunta"
   ];
 
   for (let i = 0; i < quiz[nivel].opcao.length; i++) {
