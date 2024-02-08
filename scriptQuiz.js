@@ -69,7 +69,7 @@ const quiz = [
     },
   ];
 
-  let nivel = 0;
+let nivel = 0;
 function exibir() {
   let titulo = document.getElementsByTagName("h1")[0];
   let paragrafo = (document.getElementsByTagName("p")[0].innerHTML = `${quiz[nivel].pergunta}`);
@@ -84,3 +84,22 @@ function exibir() {
   let imgFoto = document.getElementById("imgPerfil");
 
   const letras = ["A", "B", "C", "D"];
+  const ordem = [
+    "Primeira pergunta:",
+    "Segunda pergunta:",
+    "Terceira pergunta:",
+    "Quarta pergunta:",
+  ];
+
+  for (let i = 0; i < quiz[nivel].opcao.length; i++) {
+    li[i].innerHTML = `${letras[i]} ) ${quiz[nivel].opcao[i]}`;
+    optionList[i].innerHTML = `${quiz[nivel].opcao[i]}`;
+    titulo.innerHTML = `${ordem[nivel]}`;
+
+    main.style.backgroundImage = `url(${tema[nivel].fundo})`;
+    imgLogo.src = `${tema[nivel].logo}`;
+    imgFoto.src = `${tema[nivel].perfil}`;
+  }
+}
+
+exibir();
