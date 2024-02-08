@@ -68,3 +68,19 @@ const quiz = [
       fundo: "",
     },
   ];
+
+  let nivel = 0;
+function exibir() {
+  let titulo = document.getElementsByTagName("h1")[0];
+  let paragrafo = (document.getElementsByTagName("p")[0].innerHTML = `${quiz[nivel].pergunta}`);
+  let ul = document.getElementsByTagName("ul")[0];
+  let li = ul.getElementsByTagName("li");
+  let datalist = document.getElementsByTagName("datalist")[0];
+  let optionList = datalist.getElementsByTagName("option");
+
+  let main = document.getElementsByTagName("main")[0];
+  // let section = document.getElementById("imagens")
+  let imgLogo = document.getElementById("imgFundo");
+  let imgFoto = document.getElementById("imgPerfil");
+
+  const letras = ["A", "B", "C", "D"];
