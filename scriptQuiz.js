@@ -10,9 +10,9 @@ const quiz = [
     resposta: "C",
   },
   {
-    pergunta: "Que ano nasci", //beatriz
-    opcao: [2005, 2006, 2007, 2008],
-    resposta: "A",
+    pergunta: "De quem é a famosa frase: Penso Logo Existo?", //beatriz
+    opcao: ["Platão", "Galileu Galilei", "Descartis", "Sócrates"],
+    resposta: "C",
   },
   {
     pergunta:
