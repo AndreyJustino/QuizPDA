@@ -103,3 +103,23 @@ function exibir() {
 }
 
 exibir();
+
+function verificar() {
+  let resposta = String(
+    document.getElementById("resposta").value.toUpperCase()
+  );
+
+  if (resposta == quiz[nivel].resposta) {
+    alert("Opção correta, vamos para proxima");
+    nivel++;
+  } else {
+    alert("Você errou! Volte para o inicio.");
+    window.location.replace("./index.html");
+  }
+
+  if (nivel < quiz.length) {
+    exibir();
+  } else {
+    alert("Quiz finalizado.");
+  }
+}
