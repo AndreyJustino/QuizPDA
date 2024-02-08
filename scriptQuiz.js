@@ -25,8 +25,8 @@ const quiz = [
       resposta: "A",
     },
     {
-      pergunta: "Nome da minha mãe", //hiago
-      opcao: ["tereza", "creuza", "maria", "vitoria"],
+      pergunta: "Qual destes animais não aparece em PROCURANDO NEMO", //felipe
+      opcao: ["peixe-palhaço", "peixe Blue Tang", "Polvo", "estrela-do-mar"],
       resposta: "C",
     },
     {
@@ -38,5 +38,33 @@ const quiz = [
         "31 de agosto de 1963 em Saturno",
      ],
         resposta: "A",
+    },
+  ];
+
+  const tema = [
+    {
+      perfil: "./assets/img/fotoAndrey.jpg", //andrey
+      logo: "./assets/img/logoNetflix.png",
+      fundo: "./assets/img/fundoNetflix.png",
+    },
+    {
+      perfil: "", //beatriz
+      logo: "",
+      fundo: "",
+    },
+    {
+      perfil: "./assets/img/brenda.jpeg", //brenda
+      logo: "./assets/icon/html.png",
+      fundo: "./assets/img/codigo.jpg",
+    },
+    {
+      perfil: "./assets/img/Felipe.jpg", //felipe
+      logo: "./assets/icon/ícone-peixe.png",
+      fundo: "./assets/img/Nemo.jpg",
+    },
+    {
+      perfil: "", //hiago
+      logo: "",
+      fundo: "",
     },
   ];
