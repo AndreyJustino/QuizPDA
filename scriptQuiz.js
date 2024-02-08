@@ -45,7 +45,7 @@ const tema = [
     fundo: "./assets/img/fundoNetflix.png",
   },
   {
-    perfil: "./assets/img/betriz.jpeg", //beatriz
+    perfil: "./assets/img/beatriz.jpeg", //beatriz
     logo: "./assets/icon/filosofia-logo.png",
     fundo: "./assets/img/imagem-fundo.jpg",
   },
