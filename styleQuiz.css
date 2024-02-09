@@ -22,7 +22,7 @@ main {
 }
 
 .logo {
-  height: 50px;
+  height: 15vh;
 }
 
 .imagens {
@@ -44,7 +44,7 @@ main {
   background-color: #000000c7;
   color: #ffffff;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   border-radius: 5px;
   height: 50vh;
 
@@ -66,7 +66,7 @@ main {
 }
 
 .card div button {
-  background-color: #ec1515;
+  background-color: #5200b1;
   color: #ffffff;
   font-size: large;
   border: none;
