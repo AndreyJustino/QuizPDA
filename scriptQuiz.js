@@ -27,7 +27,7 @@ const quiz = [
   },
   {
     pergunta:
-      "Qual foi a data e para onde foi o local do primeiro pouso fora de órbita?",
+      "Qual foi a data e o local do primeiro pouso fora de órbita?",
     opcao: [
       "20 de julho de 1969 na Lua",
       "12 de abril de 1961 em Marte",
@@ -41,7 +41,7 @@ const quiz = [
 const tema = [
   {
     perfil: "./assets/img/fotoAndrey.jpg", //andrey
-    logo: "./assets/img/logoNetflix.png",
+    logo: "./assets/icon/netflixIcon.png",
     fundo: "./assets/img/fundoNetflix.png",
   },
   {
@@ -109,10 +109,11 @@ function verificar() {
   );
 
   if (resposta == quiz[nivel].resposta) {
-    alert("Opção correta, vamos para proxima");
+    alert("Certa resposta!");
     nivel++;
   } else {
     alert("Você errou! Volte para o inicio.");
+    nivel = 0
     window.location.replace("./index.html");
   }
 
@@ -120,5 +121,7 @@ function verificar() {
     exibir();
   } else {
     alert("Quiz finalizado.");
+    nivel = 0
+    window.location.replace("./index.html");
   }
 }
