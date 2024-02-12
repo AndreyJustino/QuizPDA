@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Lilita One";
+    src: url("font/LilitaOne-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Game";
+    src: url("font/Minecraft.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --fonteP: "Lilita one";
+    --fonteB: "Game";
+    --cor1:  #560090;
+    --cor2: #9900ff;
+}
+
+main{
+    background-image: linear-gradient(220deg, var(--cor1), var(--cor2) );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, p{
+    font-family: var(--fonteP);
+    color: #000000;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+div{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 400px;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+    padding: 25px;
+    box-shadow: 9px 9px 20px 0px black;
+}
+
+img{
+    height: 200px;
+    width: 190px;
+    /* border: 3px solid black; */
+}
+
+button {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--fonteB);
+    letter-spacing: 5px;
+    color: #fff;
+    background-color: #000000;
+    padding: 15px 45px;
+    border: solid #000000 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+  
+button:hover {
+    font-size: 25px;
+    transition: 0.5s;
+}
