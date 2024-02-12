@@ -27,7 +27,7 @@ const quiz = [
   },
   {
     pergunta:
-      "Qual foi a data e o local do primeiro pouso fora de órbita?",
+      "Qual foi a data e o local do primeiro pouso fora de órbita?", //hiago
     opcao: [
       "20 de julho de 1969 na Lua",
       "12 de abril de 1961 em Marte",
