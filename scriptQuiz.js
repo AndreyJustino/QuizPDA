@@ -120,8 +120,7 @@ function verificar() {
   if (nivel < quiz.length) {
     exibir();
   } else {
-    alert("Quiz finalizado.");
     nivel = 0
-    window.location.replace("./index.html");
+    window.location.replace("./final.html");
   }
 }
